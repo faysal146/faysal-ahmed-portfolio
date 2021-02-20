@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Operator Mono Lig';
+    src: url('OperatorMonoLig-BookItalic.eot');
+    src: url('OperatorMonoLig-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('OperatorMonoLig-BookItalic.woff2') format('woff2'),
+        url('OperatorMonoLig-BookItalic.woff') format('woff'),
+        url('OperatorMonoLig-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono Lig';
+    src: url('OperatorMonoLig-Book.eot');
+    src: url('OperatorMonoLig-Book.eot?#iefix') format('embedded-opentype'),
+        url('OperatorMonoLig-Book.woff2') format('woff2'),
+        url('OperatorMonoLig-Book.woff') format('woff'),
+        url('OperatorMonoLig-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono Lig';
+    src: url('OperatorMonoLig-Medium.eot');
+    src: url('OperatorMonoLig-Medium.eot?#iefix') format('embedded-opentype'),
+        url('OperatorMonoLig-Medium.woff2') format('woff2'),
+        url('OperatorMonoLig-Medium.woff') format('woff'),
+        url('OperatorMonoLig-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono Lig';
+    src: url('OperatorMonoLig-MediumItalic.eot');
+    src: url('OperatorMonoLig-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('OperatorMonoLig-MediumItalic.woff2') format('woff2'),
+        url('OperatorMonoLig-MediumItalic.woff') format('woff'),
+        url('OperatorMonoLig-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

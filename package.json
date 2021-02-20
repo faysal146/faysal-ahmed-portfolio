@@ -1,0 +1,46 @@
+{
+  "name": "faysal-ahmed",
+  "description": "Hello !! My name is Faysal Ahmed and I'm a full-stack web developer who is passionate about various web technologies, Currently living in Chittagong, Bangladesh. My primary focus and inspiration for my studies on Web Development. I am both driven and self-motivated, and I am constantly experimenting with new technologies and techniques. I have experience working with LAMP stack, MERN stack. I am very passionate about Web Development and strive to better myself as a Developer, and the development community as a whole.\nCurrently, I work mostly with JavaScript technologies like ReactJS, Vuejs, and NodeJS. I also have hands-on experience working with cloud infrastructures like AWS/GCP and have deployed applications keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool tools I use for CI/ CD. I'm always a learner and a self-taught programmer.",
+  "version": "1.0.0",
+  "author": "Faysal Ahmed <fahadfaysal146@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "gatsby-alias-imports": "^1.0.6",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-manifest": "^2.12.0",
+    "gatsby-plugin-offline": "^3.10.1",
+    "gatsby-plugin-playground": "^1.0.6",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.14.1",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.11.0",
+    "gatsby-transformer-sharp": "^2.12.0",
+    "infinite-react-carousel": "^1.2.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.28.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "gatsby-plugin-postcss": "^3.7.0",
+    "postcss": "^8.2.6",
+    "prettier": "2.2.1",
+    "tailwindcss": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faysal146/faysal-ahmed-portfolio.git"
+  }
+}

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '../assets/font/stylesheet.css';
+
+@layer base {
+    html,
+    body {
+        font-family: theme('fontFamily.mainFont');
+    }
+}
+/* ==> add new utilities  <== */
+
+/* @layer utilities {
+  .scroll-snap-none {
+    scroll-snap-type: none;
+  }
+  .scroll-snap-x {
+    scroll-snap-type: x;
+  }
+  .scroll-snap-y {
+    scroll-snap-type: y;
+  }
+} */
+/* ==> make new class <== */
+/* .btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn-blue {
+  @apply bg-blue-500 hover:bg-blue-700 text-white;
+} */
