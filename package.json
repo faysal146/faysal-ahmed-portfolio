@@ -13,6 +13,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "framer-motion": "^3.6.2",
     "gatsby": "^2.26.1",
     "gatsby-alias-imports": "^1.0.6",
     "gatsby-image": "^2.11.0",
@@ -29,7 +30,9 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-parallax-tilt": "^1.4.86",
     "react-slick": "^0.28.0",
+    "scrollmagic": "^2.0.8",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
