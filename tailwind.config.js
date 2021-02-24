@@ -6,7 +6,7 @@ module.exports = {
             mainFont: ['Quicksand', 'sans-serif'],
             secondaryFont: ['Dosis', 'sans-serif'],
             logoFont: ['Concert One', 'cursive'],
-            codeFont: ['Operator Mono Lig'],
+            codeFont: ["'Operator Mono Lig'", 'Dosis', 'sans-serif'],
         },
         extend: {},
     },

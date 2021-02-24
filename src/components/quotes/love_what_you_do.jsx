@@ -8,7 +8,6 @@ export default () => {
 
     useEffect(() => {
         const sectionPageOffset = ref.current;
-        let count = 0;
         const unsub = window.addEventListener('scroll', function () {
             // how mayn px is scrolled => window.pageYOffset;
             const scrollPostion = window.pageYOffset + sectionPageOffset.clientHeight + 100;
@@ -33,11 +32,11 @@ export default () => {
         return () => {
             window.removeEventListener('scroll', unsub);
         };
-    }, []);
+    }, [ref, ref2, textRef, textRef2]);
 
     return (
-        <section className='relative h-96' ref={ref} id='some'>
-            <blockquote className='absolute top-0 bottom-0 text-center mx-auto w-96 right-40'>
+        <section className='relative h-96' ref={ref}>
+            <blockquote className='absolute top-0 bottom-0 left-0 right-0 text-center mx-auto h-2/4 my-auto'>
                 <svg
                     id='quote1TextSVG'
                     className='w-full h-full overflow-visible'

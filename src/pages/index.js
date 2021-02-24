@@ -2,7 +2,10 @@ import React from 'react';
 import Header from 'components/header';
 import Hero from 'components/hero';
 import TachSlider from 'components/tach-slider';
-import Quotes from 'components/quotes';
+import LoveWhatYouDo from 'components/quotes/love_what_you_do';
+import About from 'components/about';
+import EverPositive from 'components/quotes/ever_positive';
+import Skills from 'components/skills';
 
 export default function Home() {
     return (
@@ -12,8 +15,10 @@ export default function Home() {
                 <Hero />
                 <TachSlider />
             </div>
-            <Quotes />
-            <div style={{ height: '1000px' }}></div>
+            <LoveWhatYouDo />
+            <About />
+            <EverPositive />
+            <Skills />
         </>
     );
 }
